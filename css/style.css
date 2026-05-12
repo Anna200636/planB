@@ -1,0 +1,41 @@
+﻿body {
+    background-color: #f8f9fa;
+}
+
+.site-logo {
+    width: 42px;
+    height: 42px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.main-logo {
+    max-height: 220px;
+    object-fit: contain;
+}
+
+.slider-img {
+    height: 380px;
+    object-fit: cover;
+}
+
+.course-card-img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.register-img {
+    max-height: 560px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 576px) {
+    .slider-img {
+        height: 220px;
+    }
+
+    .course-card-img {
+        height: 180px;
+    }
+}
